@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SamanpaiiiiArt</title>
+<link rel="stylesheet" type="text/css" media="screen" href="res/css/style.css"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="slider.js"></script>
+</head>
+
+<body>
+	<div id="slideshow">
+     	<img src="img_1.png">
+     	<img src="img_2.png">
+     	<img src="img_3.png">
+     	<img src="img_4.png">
+     	<img src="img_5.png">
+     	<img src="img_6.png">
+     	<img src="img_7.png">
+     	<img src="img_8.png">
+     	<img src="img_9.png">
+	    <img src="1.png">
+     	<img src="2.png">
+     	<img src="3.png">
+     	<img src="4.png">
+     	<img src="5.png">
+     	<img src="6.png">
+     	<img src="7.png">
+	</div>
+	<script type="text/javascript">
+		(function() {
+
+		var img = document.getElementById('container').firstChild;
+		img.onload = function() {
+		    if(img.height > img.width) {
+		        img.height = '100%';
+		        img.width = 'auto';
+		    }
+		};
+
+		}());
+	</script>
+</body>
+</html>

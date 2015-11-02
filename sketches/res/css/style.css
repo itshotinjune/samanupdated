@@ -1,0 +1,34 @@
+html, body {
+	background:#eaeaea url(../img/bg.png) repeat;
+	font-size:12px;
+	font-family:"Open Sans", serif;
+	min-width:960px;
+	margin:0;
+	padding:0;
+	color:#aaa;
+	height: 100%;
+}
+
+#slideshow { 
+    /*margin: 2% auto;*/
+    margin: auto;
+    position: relative; 
+    width : 630px;
+	height: 96%;
+	top : 2%;
+	bottom : 2%;
+    padding: 0px; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.4); 
+}
+
+#slideshow img {
+
+	width : 97%;
+	height: 98%;
+    position: absolute; 
+    top: 1%; 
+    left: 1.5%; 
+    right: 1.5%; 
+    bottom: 1%;
+    
+}
