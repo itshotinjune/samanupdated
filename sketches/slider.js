@@ -10,6 +10,6 @@ $(document).ready(function(){
 	    .fadeIn(1000)
 	    .end()
 	    .appendTo('#slideshow');
-	},  5000);
+	},  7000);
 
 });
